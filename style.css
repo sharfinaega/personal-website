@@ -1,0 +1,103 @@
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar,
+.footer {
+  overflow: auto;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar h1 {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.navbar a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: center;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: grey;
+  color: white;
+}
+
+.home {
+  position: relative;
+}
+
+.home-text-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-image-content {
+  background-image: url(images/background1.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 125%;
+  height: 750px;
+  width: 100%;
+  opacity: 50%;
+}
+
+.home-text-content div span {
+  color: black;
+  text-align: center;
+  font-size: 80px;
+  margin: center;
+}
+
+.home-text-content h3 {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  margin: center;
+}
+
+.home-text-content h4 {
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  margin: center;
+}
+
+.footer h3 {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 100%;
+}
