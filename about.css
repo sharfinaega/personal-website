@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|McLaren|Patrick+Hand&display=swap");
 
 body {
   height: 100%;
@@ -81,6 +81,7 @@ body {
   margin: center;
   font-family: "Indie Flower", cursive;
   font-family: "Patrick Hand", cursive;
+  font-family: "McLaren", cursive;
 }
 
 .home-text-content h2 {
@@ -90,25 +91,59 @@ body {
   margin-top: 0;
   font-family: "Indie Flower", cursive;
   font-family: "Patrick Hand", cursive;
+  font-family: "McLaren", cursive;
 }
 
-.home-text-content-2 {
-  position: absolute;
+.container-edu {
+  box-sizing: content-box;
+  width: 1000px;
+  height: 100px;
+  padding: 10px;
+  border: 10px solid maroon;
+  margin-top: 0;
+}
+
+h4 {
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 0%;
+  font-family: "Indie Flower", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "McLaren", cursive;
+}
+
+p {
+  color: black;
+  text-align: left;
+  font-size: 15px;
+  margin-top: 0%;
+  margin-bottom: 5%;
+  font-family: "Indie Flower", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "McLaren", cursive;
+}
+
+.container-working {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  margin-left: 5%;
+  align-self: flex-end;
+  box-sizing: content-box;
+  width: 1000px;
+  height: 100px;
+  padding: 10px;
+  border: 10px solid black;
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
-.home-text-content-2 h4 {
-  color: black;
-  text-align: center;
-  font-size: 25px;
-  margin: center;
+.container-com {
+  box-sizing: content-box;
+  width: 1000px;
+  height: 100px;
+  padding: 10px;
+  border: 10px solid maroon;
 }
 
 .footer h3 {
